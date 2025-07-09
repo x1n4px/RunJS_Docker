@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Playground JS (Servidor)</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/codemirror.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/theme/material-darker.min.css">
+    <style>
+        body { font-family: sans-serif; margin: 2rem; background-color: #f0f0f0; }
+        .CodeMirror { border: 1px solid #ccc; height: 300px; font-size: 16px; }
+        button { font-size: 1rem; padding: 0.5rem 1rem; margin-top: 1rem; cursor: pointer; }
+        pre { background-color: #212121; color: #eee; padding: 1rem; border-radius: 5px; white-space: pre-wrap; word-wrap: break-word; }
+    </style>
+</head>
+<body>
+    <h1>Playground JS (Server-Side con Docker)</h1>
+    <p>El código se envía a un servidor que lo ejecuta en un contenedor Docker seguro.</p>
+    
+    <div id="editor"></div>
+    
+    <button id="run-button">▶️ Ejecutar en Servidor</button>
+    
+    <h2>Salida:</h2>
+    <pre id="output">La salida del servidor aparecerá aquí...</pre>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/codemirror.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.65.15/mode/javascript/javascript.min.js"></script>
+    <script src="./app.js"></script>
+</body>
+</html>
