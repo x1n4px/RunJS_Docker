@@ -219,9 +219,7 @@ curl -X POST http://localhost:3000/execute \
 4. Push a la rama (`git push origin feature/AmazingFeature`)
 5. Abre un Pull Request
 
-## 📝 Licencia
-
-Distribuido bajo la licencia MIT. Ver `LICENSE` para más información.
+ 
 
 ## 🔗 Enlaces útiles
 
